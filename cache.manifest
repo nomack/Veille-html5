@@ -1,0 +1,45 @@
+CACHE MANIFEST
+# v1.2.10
+
+CACHE:
+# Fichiers CSS
+http://fonts.googleapis.com/css?family=Ubuntu|Oswald|Vollkorn|Arimo
+css/style.css?v=2
+js/libs/syntaxhighlighter_3.0.83/styles/shCore.css
+js/libs/syntaxhighlighter_3.0.83/styles/shThemeDefault.css
+
+#Images
+image/chrome1.png
+image/internet_explorer1.png
+image/opera1.png
+image/safari1.png
+
+#Fichiers JS
+js/libs/jquery-1.5.1.min.js
+js/libs/modernizr-1.7.min.js
+js/script.js
+js/worker.js
+js/libs/syntaxhighlighter_3.0.83/scripts/shCore.js
+js/libs/syntaxhighlighter_3.0.83/scripts/shBrushCss.js
+js/libs/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js
+js/libs/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js
+js/libs/syntaxhighlighter_3.0.83/scripts/shBrushSql.js
+
+#Fichiers PHP
+index.php
+drag_n_drop.php
+local_storage.php
+formulaire.php
+web_worker.php
+css3.php
+
+#Fichiers divers
+font/Gothic.TTF
+
+FALLBACK:
+/ index.php
+db_storage.php offline.html
+web_socket.php offline.html
+
+NETWORK:
+*
